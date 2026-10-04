@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@400&family=Cormorant+Garamond:ital@1&display=swap');
+ 
+body {
+  background: black;
+  color: black;
+  font-family: "Times New Roman", serif;
+  margin: 0;
+}
+ 
+header {
+  max-width: 860px;
+  margin: 60px auto 0;
+}
+ 
+header h1 {
+  font-family: "Doto", monospace;
+  font-weight: 400;
+  font-size: 64px;
+  color: white;
+  margin: 0;
+}
+ 
+nav a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+ 
+main {
+  background: #c8d9f7;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px;
+}
+ 
+h3 {
+  font-size: 28px;
+}
+ 
+p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+ 
+a {
+  color: black;
+}
+ 
+blockquote {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  color: #6f9ae8;
+  text-align: center;
+}
+ 
+footer {
+  max-width: 860px;
+  margin: 15px auto;
+  font-family: Helvetica;
+  color: white;
+  background: black;
+}
+ 
+.Recent a {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.Recent a:hover {
+  background: #6f9ae8;
+}
+
+.hello {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.hello img {
+  width: 300px;
+}
