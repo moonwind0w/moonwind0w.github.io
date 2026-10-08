@@ -84,3 +84,14 @@ footer {
 .hello img {
   width: 300px;
 }
+.Resume a {
+  display: inline-block;
+  background: rgb(52, 101, 104);
+  color: rgb(166, 195, 236);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.Resume a:hover {
+  background: #6f9ae8;
+}
