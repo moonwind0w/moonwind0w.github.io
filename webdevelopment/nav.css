@@ -1,6 +1,6 @@
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; gap: 20px; 
   align-items: flex-end;
   max-width: 860px;
   margin: 60px auto 0;
@@ -19,16 +19,12 @@ nav ul {
 }
 
 nav a {
-  display: inline-block;
-  background: #c8d9f7;
-  color: black;
-  padding: 8px 16px;
-  border-radius: 8px;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
+  color: white;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #1155cb;
+  color: #c8d9f7;
 }

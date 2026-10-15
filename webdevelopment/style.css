@@ -95,3 +95,6 @@ footer {
 .Resume a:hover {
   background: #6f9ae8;
 }
+.article > p {
+  text-indent: 40px;
+}
