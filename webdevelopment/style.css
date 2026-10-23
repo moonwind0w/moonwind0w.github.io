@@ -98,3 +98,12 @@ footer {
 .article > p {
   text-indent: 40px;
 }
+video {
+  display: block;
+  margin: 0 auto;
+}
+.headshot {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
