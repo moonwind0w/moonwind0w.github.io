@@ -11,7 +11,10 @@ header {
   max-width: 860px;
   margin: 60px auto 0;
 }
- 
+ header img {
+  height: 200px;
+  margin-left: 37px;
+}
 header h1 {
   font-family: "Doto", monospace;
   font-weight: 400;
@@ -25,7 +28,7 @@ nav a {
   font-size: 22px;
   color: white;
   text-decoration: none;
-  margin-left: 25px;
+  margin-left: 15px;
 }
  
 main {
@@ -62,7 +65,9 @@ footer {
   color: white;
   background: black;
 }
- 
+ .Recent {
+  text-align: center;
+}
 .Recent a {
   display: inline-block;
   background: black;
@@ -102,8 +107,23 @@ video {
   display: block;
   margin: 0 auto;
 }
-.headshot img {
+.headshot {
   display: block;
   margin: 0 auto;
-  width: 500px;
+  width: 400px;
+}
+footer {
+  text-align: center;
+}
+/* Removed the extra closing brace */
+footer .icon {
+  width: 50px;
+  height: 50px;
+  float: none;
+  margin: 0 8px 0 0;
+  vertical-align: middle;
+}
+
+footer a {
+  color: white;
 }
