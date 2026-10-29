@@ -22,6 +22,9 @@ header h1 {
   color: white;
   margin: 0;
 }
+h1{
+    text-align: center;
+}
  
 nav a {
   font-family: Helvetica, Arial, sans-serif;
@@ -126,4 +129,46 @@ footer .icon {
 
 footer a {
   color: white;
+}
+@media print {
+
+  @page {
+    margin: 1in;
+  }
+  
+  .about footer p:first-child {
+    display: none;
+  }
+
+  .about footer {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: auto;
+    text-align: left;
+  }
+
+  .about h1 {
+    font-size: 20pt;
+    margin: 0 0 10pt;
+  }
+
+  .about h3 {
+    font-size: 13pt;
+    margin: 12pt 0 4pt;
+  }
+
+  .about li {
+    font-size: 11pt;
+    line-height: 1.4;
+    margin: 0 0 8pt;
+  }
+
+  .about footer {
+    margin-top: 16pt;
+  }
+
+  .about a {
+    text-decoration: none;
+  }
 }
