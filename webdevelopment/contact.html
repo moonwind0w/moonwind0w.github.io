@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Name: Evie
+     Date: 10/29/2026
+     Course: ISLT_4355/7355
+     Description: Contact page -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moonwind0w</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="contact">
+
+  <header>
+    <img src="logo.png" alt="Moonwind0w logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="reflection.html">philosophy</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <h1><strong>Contact me.</strong></h1>
+
+    <form class="contact-form">
+
+      <label for="title">Title</label>
+      <select id="title" name="title" required>
+        <option value="" disabled selected>Select your title</option>
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>
+        <option value="Mrs.">Mrs.</option>
+        <option value="Dr.">Dr.</option>
+      </select>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+      <label for="reason">What are you reaching out about?</label>
+      <select id="reason" name="reason" required>
+        <option value="" disabled selected>Choose a topic</option>
+        <option value="commission">Artwork commission</option>
+        <option value="collaboration">Collaboration</option>
+        <option value="other">Something else</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Evie V. October 29, 2026</p>
+
+    <p class="contact">
+      <img src="phoneicon.png" alt="Phone icon" class="icon">
+      816-853-5656
+    </p>
+
+    <p class="contact">
+      <img src="mailicon.png" alt="Email icon" class="icon">
+      <a href="mailto:tvwishes111@gmail.com">tvwishes111@gmail.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>

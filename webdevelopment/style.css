@@ -22,7 +22,7 @@ header h1 {
   color: white;
   margin: 0;
 }
-h1 {
+h1{
     text-align: center;
 }
  
@@ -118,7 +118,6 @@ video {
 footer {
   text-align: center;
 }
-/* Removed the extra closing brace */
 footer .icon {
   width: 50px;
   height: 50px;
@@ -129,6 +128,51 @@ footer .icon {
 
 footer a {
   color: white;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin: 12px 0 4px;
+}
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #999;
+  border-radius: 6px;
+  background: white;
+  color: black;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form textarea:focus {
+  outline: 2px solid black;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  font: inherit;
+  border: none;
+  border-radius: 6px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
 }
 @media print {
 
@@ -150,7 +194,7 @@ footer a {
 
   .about h1 {
     font-size: 20pt;
-  text-align: center;
+    margin: 0 0 10pt;
   }
 
   .about h3 {
