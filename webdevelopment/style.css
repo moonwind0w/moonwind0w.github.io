@@ -150,7 +150,7 @@ footer a {
 
   .about h1 {
     font-size: 20pt;
-    margin: 0 0 10pt;
+  text-align: center;
   }
 
   .about h3 {
