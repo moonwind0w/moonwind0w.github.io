@@ -195,9 +195,16 @@ footer a {
 }
 
 .about .text-side {
-  margin-top:  20px;
+  margin-top: 10px;
   background: #e2cae8;
   text-align: center;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+.about .text-side ul {
+  list-style-position: inside;
+  padding: 0;
 }
 .about .text-main p {
   text-indent: 30px;
@@ -256,5 +263,9 @@ footer a {
 
   .about a {
     text-decoration: none;
+  }
+    .about footer,
+  .about footer a {
+    color: black;
   }
 }
