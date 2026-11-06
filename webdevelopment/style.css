@@ -17,7 +17,6 @@ header {
   height: 200px;
   margin-left: 37px;
 }
-/* Header photo (separate from the logo) */
 .header-photo {
   height: 150px;
   width: auto;
@@ -33,7 +32,16 @@ header h1 {
 h1{
     text-align: center;
 }
- 
+ .welcome {
+    font-size: 20px;
+    padding-top: 20px;
+ }
+
+.evie {
+    font-size: 15px;
+    text-align: middle;
+ }
+
 nav a {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -43,7 +51,7 @@ nav a {
 }
  
 main {
-  background: #c8d9f7;
+  background: #b2d6e9;
   max-width: 680px;
   margin: 0 auto;
   padding: 40px;
@@ -93,12 +101,16 @@ footer {
 
 .hello {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   align-items: flex-start;
+  text-indent: 50px;
 }
 
 .hello img {
   width: 300px;
+  flex-shrink: 0;
+  position: relative;
+  top: -50px;
 }
 .Resume a {
   display: inline-block;
@@ -214,6 +226,13 @@ footer a {
   font-size: 60px;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+.top-image {
+  display: block;
+  max-width: 700px;
+image-center: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
