@@ -6,7 +6,9 @@ body {
   font-family: "Times New Roman", serif;
   margin: 0;
 }
- 
+ .home-text {
+    font-size: 50px;
+  }
 header {
   max-width: 860px;
   margin: 60px auto 0;
@@ -14,6 +16,12 @@ header {
  header img {
   height: 200px;
   margin-left: 37px;
+}
+/* Header photo (separate from the logo) */
+.header-photo {
+  height: 150px;
+  width: auto;
+  margin-left: auto;
 }
 header h1 {
   font-family: "Doto", monospace;
@@ -173,6 +181,40 @@ footer a {
 
 .contact-form button:hover {
   opacity: 0.8;
+}
+.about .text-main {
+  display: flow-root;        
+  background: #c7e3d1;
+  padding: 20px;
+}
+
+.about .about-img {
+  float: right;
+  width: 50%;
+  margin: 16px 0 16px 16px;
+}
+
+.about .text-side {
+  margin-top:  20px;
+  background: #e2cae8;
+  text-align: center;
+}
+.about .text-main p {
+  text-indent: 30px;
+}
+.about-name {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .about .about-img {
+    float: none;
+    width: 100%;
+    margin: 16px;
+  }
 }
 @media print {
 
