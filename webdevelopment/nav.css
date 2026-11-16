@@ -1,6 +1,7 @@
 header {
   display: flex;
-  justify-content: flex-start; gap: 20px; 
+  justify-content: flex-start;
+  gap: 20px;
   align-items: flex-end;
   max-width: 860px;
   margin: 60px auto 0;
@@ -27,4 +28,35 @@ nav a {
 
 nav a:hover {
   color: #c8d9f7;
+}
+
+.hamburger {
+  display: none;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+
+nav ul.dropdown {
+  display: none;
+}
+
+/* phones */
+@media screen and (max-width: 600px) {
+
+  /* Hide navigation  */
+  nav ul.main-menu {
+    display: none;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+  }
+
+  /* Keep dropdown hidden */
+  nav ul.dropdown {
+    display: none;
+  }
 }
