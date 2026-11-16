@@ -300,7 +300,7 @@ footer a {
 /* Image box */
 .project-card figure {
   margin: 0;
-  background: white;
+  background: transparent;
 }
 
 .project-card img {
