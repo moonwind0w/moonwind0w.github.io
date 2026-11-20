@@ -327,7 +327,65 @@ footer a {
   font-size: 15px;
 }
 
-/* tablet: one card per row */
+.table-wrap {
+  overflow-x: auto;
+}
+
+/* Border */
+table {
+  border-collapse: collapse;
+  border: 3px solid #000000;
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+}
+
+caption {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 0.5rem 0;
+  color: #000000;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Header section */
+thead th {
+  background: #000000;
+  color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+  background: #dccfe3;
+}
+
+tbody tr:nth-child(even) {
+  background: #ffffff;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 1rem;
+  }
+
+  caption {
+    font-size: 1rem;
+  }
+
+  th, td {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  table {
+    min-width: 360px; 
+  }
+}
 @media (max-width: 800px) {
   .project-section {
     grid-template-columns: 1fr;
